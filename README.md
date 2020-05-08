@@ -1,9 +1,8 @@
 # UI Challenge Flutter Explore Hotel
 
-Este projeto é um desafio de desenvolvimento de telas no Flutter.
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png" width="200">
 
-# Stack de Desenvolvimento
- - Flutter
+Este projeto é um desafio de desenvolvimento de telas no Flutter.
 
 # Desafio
 
