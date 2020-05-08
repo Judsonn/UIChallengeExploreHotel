@@ -5,10 +5,12 @@ class RootApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primaryColor: Colors.deepPurple,
         inputDecorationTheme: InputDecorationTheme(
           fillColor: Colors.white,
+          focusColor: Colors.white,
           contentPadding: EdgeInsets.all(8),
           filled: true,
           enabledBorder: OutlineInputBorder(
