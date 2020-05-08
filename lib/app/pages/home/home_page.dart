@@ -126,8 +126,9 @@ class _HomePageState extends State<HomePage> {
 
                 ),
                 child: Padding(
-                  padding: const EdgeInsets.all(8.0),
+                  padding: const EdgeInsets.only(left: 8, right: 8, bottom: 50),
                   child: ListView.builder(
+                    physics: BouncingScrollPhysics(),
                     itemCount: listMosque.length,
                     itemBuilder: (context, index){
 
@@ -148,6 +149,7 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
       bottomNavigationBar: BottomNavigationBar(
+        elevation: 10,
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
