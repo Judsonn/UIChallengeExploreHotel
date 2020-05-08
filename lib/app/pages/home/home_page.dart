@@ -12,29 +12,29 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   List<MosqueModel> listMosque = [
     MosqueModel(
-      title: "Shirotal Mustaqim Mosque",
-      urlImage: "https://gdia.com.br/fl/normal/1571688292-5dae18a070de4_mesquita12.jpg",
+      title: "Hotel leblon plaza",
+      urlImage: "https://cdn.pixabay.com/photo/2018/12/05/21/49/hotel-3858833_960_720.jpg",
       review: 45,
       isOpen: true,
       isFree: true 
     ),
     MosqueModel(
-      title: "Shirotal Mustaqim Mosque",
-      urlImage: "https://i.pinimg.com/originals/07/9a/09/079a09695bf74f154d09705dc1869a0f.jpg",
+      title: "Hotel Mesquita",
+      urlImage: "https://torange.biz/photo/20/IMAGE/pool-pools-turkish-hotels-swimming-luxury-20899.jpg",
       review: 45,
       isOpen: true,
       isFree: true 
     ),
     MosqueModel(
-      title: "Shirotal Mustaqim Mosque",
-      urlImage: "https://www.360meridianos.com/wp-content/uploads/2017/08/mesquita-catedral-cordoba-1-1280x720.jpg",
+      title: "Hotel da barra vip",
+      urlImage: "https://upload.wikimedia.org/wikipedia/commons/f/f2/SOFITEL_HOTEL_MARRAKECH_MOROCCO_APRIL_2013_%288709735037%29.jpg",
       review: 45,
       isOpen: true,
       isFree: true 
     ),
     MosqueModel(
-      title: "Shirotal Mustaqim Mosque",
-      urlImage: "https://i2.wp.com/viagemcult.com/wp-content/uploads/abudhabi-mesquita.jpg",
+      title: "Hotel solare",
+      urlImage: "https://images.pexels.com/photos/2133508/pexels-photo-2133508.jpeg?cs=srgb&dl=agua-ao-ar-livre-ao-lado-da-piscina-2133508.jpg&fm=jpg",
       review: 45,
       isOpen: true,
       isFree: true 
@@ -58,7 +58,7 @@ class _HomePageState extends State<HomePage> {
                   Container(
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage("assets/mosque.jpeg"),
+                        image: NetworkImage("https://cdn.pixabay.com/photo/2017/08/10/16/11/burj-al-arab-2624317_960_720.jpg"),
                         fit: BoxFit.cover
                       )
                     ),
@@ -93,7 +93,7 @@ class _HomePageState extends State<HomePage> {
 
                         SizedBox(height: 8),
 
-                        Text("Deseja pesquisar mesquitas próximas?", style:  TextStyle(
+                        Text("Deseja pesquisar hotéis mais próximas?", style:  TextStyle(
                           color: Colors.white, fontSize: 28, fontWeight: FontWeight.bold
                         )),
 
@@ -103,7 +103,7 @@ class _HomePageState extends State<HomePage> {
                           decoration: InputDecoration(
                             prefixIcon: Icon(Icons.search),
                             suffixIcon: Icon(Icons.my_location, color: Theme.of(context).primaryColor,),
-                            hintText: "Mesquita mais próxima"
+                            hintText: "Hotéis mais próxima"
                           ),
                         )
 
