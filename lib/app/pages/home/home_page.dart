@@ -147,6 +147,34 @@ class _HomePageState extends State<HomePage> {
           ],
         ),
       ),
+      bottomNavigationBar: BottomNavigationBar(
+        items: const <BottomNavigationBarItem>[
+          BottomNavigationBarItem(
+            icon: Icon(Icons.home),
+            title: Text(''),
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.panorama_wide_angle),
+            title: Text(''),
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.bookmark_border),
+            title: Text(''),
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.settings),
+            title: Text(''),
+          ),
+        ],
+        currentIndex: 0,
+        selectedItemColor: Theme.of(context).primaryColor,
+        unselectedItemColor: Colors.grey,
+        showSelectedLabels: false,
+        showUnselectedLabels: false,
+        onTap: (value){
+          
+        },
+      ),
     );
   }
 }
