@@ -65,7 +65,6 @@ class _HomePageState extends State<HomePage> {
                   ),
                   Container(
                     color: Theme.of(context).primaryColor.withOpacity(0.80)
-                    
                   ),
                   Padding(
                     padding: const EdgeInsets.only(left: 20, right: 20, bottom: 20, ),
@@ -79,7 +78,7 @@ class _HomePageState extends State<HomePage> {
                             height: 60,
                             width: 60,
                             decoration: BoxDecoration(
-                              shape: BoxShape.circle,
+                              shape: BoxShape.circle,  
                               image: DecorationImage(image: AssetImage("assets/eu.jpg"), fit: BoxFit.cover),
                             ),
                           ),

@@ -49,6 +49,7 @@ class CardMosqueWidget extends StatelessWidget {
                     color: Colors.blueGrey[800],
                     fontSize: 22,
                     fontWeight: FontWeight.bold
+                    
                   ),),
 
                   SizedBox(height: 10,),
@@ -69,7 +70,7 @@ class CardMosqueWidget extends StatelessWidget {
                     children: <Widget>[
                       Container(
                         padding: EdgeInsets.all(5),
-                        decoration: BoxDecoration(
+                        decoration: BoxDecoration( 
                           borderRadius: BorderRadius.circular(4),
                           color: Colors.lightBlue[50],
                         ),
